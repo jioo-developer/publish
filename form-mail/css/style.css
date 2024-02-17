@@ -1,0 +1,172 @@
+#section_5 {
+    background-image: url(../img/back3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.cover {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.logo{
+    width:90px;
+    position: absolute;
+    z-index: 1000;
+    top: 40px;
+    left: 50px;
+}
+
+.s_title {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    padding: 15px 0;
+    font-size: 47px;
+    font-weight: 500;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+#in_s5 {
+    margin: 0 auto;
+    width: 54%;
+    overflow: hidden;
+    padding-top: 6%;
+}
+
+#s5_title {
+    margin: 0 auto;
+    width: 50%;
+    overflow: hidden;
+    padding-top: 30px;
+    position: relative;
+    z-index: 100;
+}
+
+#s5_title > img {
+    width: 100%;
+}
+
+#s5_box {
+    float: left;
+    width: 50%;
+    overflow: hidden;
+    padding-top: 110px;
+    position: relative;
+    z-index: 100;
+}
+
+#s5_out_box {
+    margin: 0 auto;
+    width: 65%;
+    height: 70px;
+}
+
+#s5_nav {
+    margin: 0 auto;
+    width: 76%;
+    overflow: hidden;
+    padding-top: 50px;
+    display: flex;
+}
+
+#s5_nav li {
+    float: left;
+    width: 33%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#s5_nav li > img {
+    margin: 0 auto;
+    width: 115px;
+    overflow: hidden;
+    float: none;
+}
+
+#s5_in_box {
+    margin: 0 auto;
+    width: 68%;
+    overflow: hidden;
+    padding-top: 45px;
+}
+
+#s5_right_box {
+    float: left;
+    width: 50%;
+    overflow: hidden;
+    margin-top: 90px;
+    position: relative;
+    z-index: 100;
+}
+
+.text1 {
+    float: left;
+    width: 502px;
+    height: 65px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding-left: 13px;
+    outline-width: thin;
+    outline: none;
+    border: 0;
+    box-sizing: border-box;
+
+}
+
+.s5_text_area {
+    height: 160px;
+    padding: 10px 0 0 10px;
+}
+
+#s5_btn_wrap {
+    float: left;
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 45px;
+}
+
+#s5_btn {
+    float: left;
+    width: 160px;
+    height: 45px;
+    background-color: #e6a467;
+    border-radius: 3px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#s5_btn > img {
+    width: 25px;
+    margin: 10px 10px 0 25px;
+}
+
+#s5_texts {
+    float: left;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 15px;
+    color: #000;
+    text-align: center;
+    line-height: 45px;
+}
+
+#s5_close {
+    float: left;
+    width: 100px;
+    height: 45px;
+    background-color: #efefef;
+    text-align: center;
+    font-size: 15px;
+    line-height: 45px;
+    border-radius: 3px;
+}

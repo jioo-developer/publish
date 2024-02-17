@@ -1,0 +1,222 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php include("sub_common.php"); ?>
+    <link rel="stylesheet" type="text/css" href="css/ecofriendly.css">
+    <?php include("script_common.php"); ?>
+    <script src="js/jQuerySimpleCounter.js"></script>
+    <script src="js/ecofriendly.js"></script>
+    <style>
+        * {
+            transition: transform 2s cubic-bezier(0.4, 0, 0.2, 1), opacity 2s cubic-bezier(0.4, 0, 0.2, 1);
+            transition-delay: 0.1s;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="wrap friend_wrap" id="wrap">
+        <?php include("../header.php"); ?>
+        <section class="header-hide"></section>
+        <section class="section-header">
+            <div class="in_wrap">
+                <div class="page-header">
+                    <div class="page-index">
+                        <?php include("page-index.php"); ?>
+                        <p class="index">Why Neoforêt?</p>
+                    </div>
+                    <h2>네오포레</h2>
+                    <?php include("sub_in_nav.php"); ?>
+                </div>
+            </div>
+        </section>
+        <section class="section01">
+            <div class="in_wrap">
+                <article class="content">
+                    <div class="con-header" data-aos="fade-up">
+                        <b>네오포레, 자연친화적 기술</b>
+                        <p>대부분의 종이컵은 종이에 물이 스며들지 않도록 컵 내부에 PE(폴리에틸렌) 코팅이 되어 있습니다.<br>그러나 PE코팅 종이컵은 재활용이 어렵고 썩는데 500년 이상 걸려 환경에 해롭습니다.<br>네오포레 CUP은 <span>친환경 코팅</span>을 사용함 으로써 PE코팅 종이컵과는 다르게 <span>자연친화성과 안전성</span>을 보유하고 있습니다.</p>
+                    </div>
+                    <details id="details" data-aos="fade-up">
+                        <summary>친환경 코팅이란?</summary>
+                        <div>
+                            <span>네오포레 코팅 과정은 최초 에멀전 형태의 수용성 코팅제를 원지에 도포 후 120~150도 이상의</span>
+                            <span>건조구간을 거치게 되면서 고분자들이 서로 촘촘히 결합하며 일종의 배리어 막이 형성됩니다.</span><span>건조가 끝나면 냉각을 거쳐 식품포장재의 기능을 갖춘 안전한 네오포레가 탄생합니다. 수용성</span><span>코팅<sup>1)</sup>은 기존 플라스틱(PE) 코팅제와 달리, 내유성 &amp; 내수성<sup>2)</sup>을 갖춘 생분해<sup>3)</sup>가 가능한 친환경</span><span>코팅제 입니다.</span>
+                            <span class="small_span small_span1"><sup>1)</sup>수용성 코팅 : 친환경 코팅제</span>
+                            <span class="small_span"><sup>2)</sup>내유성 &amp; 내수성 : 기름과 수분을 막아 견디어 내는 성질</span>
+                            <span class="small_span"><sup>3)</sup>생분해 : 미생물에 의해 완전히 분해 되는 것</span>
+                        </div>
+                    </details>
+                    <ul class="recycle" data-aos="fade-up">
+                        <li>
+                            <figcaption>재활용성</figcaption>
+                            <figure>
+                                <img src="img/label_icon1.png" alt="">
+                            </figure>
+                        </li>
+                        <li>
+                            <figcaption>퇴비화 가능</figcaption>
+                            <figure>
+                                <img src="img/label_icon2.png" alt="">
+                            </figure>
+                        </li>
+                        <li>
+                            <figcaption>인체무해성</figcaption>
+                            <figure>
+                                <img src="img/label_icon3.png" alt="">
+                            </figure>
+                        </li>
+                        <li>
+                            <figcaption>열안전성</figcaption>
+                            <figure>
+                                <img src="img/label_icon4.png" alt="">
+                            </figure>
+                        </li>
+                    </ul>
+                    <div class="table-box" data-aos="fade-up">
+                        <div class="table-row table-head">
+                            <div class="table-cell">
+                                <div class="table-txt"></div>
+                            </div>
+                            <div class="table-cell">
+                                <div class="table-txt">코딩 성분</div>
+                            </div>
+                            <div class="table-cell">
+                                <div class="table-txt">생분해성</div>
+                            </div>
+                            <div class="table-cell">
+                                <div class="table-txt">재활용률</div>
+                            </div>
+                            <div class="table-cell">
+                                <div class="table-txt">에너지 소비</div>
+                            </div>
+                            <div class="table-cell">
+                                <div class="table-txt">환경부하</div>
+                            </div>
+                            <div class="table-cell">
+                                <div class="table-txt">내수성</div>
+                            </div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-cell">
+                                <div class="table-txt">네오포레 CUP</div>
+                            </div>
+                            <div class="table-cell">
+                                <div class="table-txt">친환경 코팅</div>
+                            </div>
+                            <div class="table-cell">
+                                <div class="table-txt">
+                                    <span class="sm">분해기간</span>
+                                    <p><strong>4</strong>&nbsp;개월&nbsp;내</p>
+                                </div>
+                            </div>
+                            <div class="table-cell">
+                                <div class="table-txt">
+                                    <span class="sm">우수</span>
+                                    <p><strong>90%</strong><span>이상</span></p>
+                                </div>
+                            </div>
+                            <div class="table-cell">
+                                <div class="table-txt">
+                                    <span class="sm">생산온도</span>
+                                    <p><strong>150℃</strong><span>이내</span></p>
+                                </div>
+                            </div>
+                            <div class="table-cell">
+                                <div class="table-txt">적음</div>
+                            </div>
+                            <div class="table-cell">
+                                <div class="table-txt">우수</div>
+                            </div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-cell">
+                                <div class="table-txt">PE코팅 CUP</div>
+                            </div>
+                            <div class="table-cell">
+                                <div class="table-txt">PE(폴리에틸렌)</div>
+                            </div>
+                            <div class="table-cell">
+                                <div class="table-txt">분해불가</div>
+                            </div>
+                            <div class="table-cell">
+                                <div class="table-txt">
+                                    <span class="sm">미흡</span>
+                                    <p><strong>80%</strong><span>미만</span></p>
+                                </div>
+                            </div>
+                            <div class="table-cell">
+                                <div class="table-txt">
+                                    <span class="sm">생산온도</span>
+                                    <p><strong>325℃</strong><span>이내</span></p>
+                                </div>
+                            </div>
+                            <div class="table-cell">
+                                <div class="table-txt">큼</div>
+                            </div>
+                            <div class="table-cell">
+                                <div class="table-txt">우수</div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="section03">
+            <div class="in_wrap">
+                <div class="section-header" data-aos="fade-up">
+                    <b>플라스틱 사용의 문제점</b>
+                    <p>플라스틱 사용량은 점차 증가 중이나, 쉽게 분해되지 않는 특성 때문에 심각한 환경 오염의 원인으로 대두되고 있습니다.</p>
+                </div>
+                <article data-aos="fade-up">
+                    <div class="progress_title">생활 폐기물 증가 추이</div>
+                    <div class="in_con">
+                        <ul class="graph">
+                            <li>
+                                <b>플라스틱</b>
+                                <div class="graph_wrap">
+                                    <div class="graph_bar graph_bar1"></div>
+                                    <p class="graph-count" id="graph_bar1"></p>
+                                </div>
+                                <div class="graph_wrap">
+                                    <div class="graph_bar graph_bar2"></div>
+                                    <p class="graph-count" id="graph_bar2"></p>
+                                </div>
+                            </li>
+                            <li>
+                                <b>비닐류</b>
+                                <div class="graph_wrap">
+                                    <div class="graph_bar graph_bar3"></div>
+                                    <p class="graph-count" id="graph_bar3"></p>
+                                </div>
+                                <div class="graph_wrap">
+                                    <div class="graph_bar graph_bar4"></div>
+                                    <p class="graph-count" id="graph_bar4"></p>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="graph_txt">
+                            <span>단위:톤,자료:환경부</span>
+                            <p>2020년 상반기</p>
+                            <p>2019년 상반기</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <?php include("../footer.php"); ?>
+    </div>
+    <script>
+        AOS.init();
+
+    </script>
+</body>
+
+</html>

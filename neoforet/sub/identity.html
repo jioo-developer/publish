@@ -1,0 +1,80 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php include("sub_common.php"); ?>
+    <link rel="stylesheet" type="text/css" href="css/identity.css">
+    <?php include("script_common.php"); ?>
+    <style>
+        * {
+            transition: transform 2s cubic-bezier(0.4, 0, 0.2, 1), opacity 2s cubic-bezier(0.4, 0, 0.2, 1);
+            transition-delay: 0.1s;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="wrap identity_wrap" id="wrap">
+        <?php include("../header.php"); ?>
+        <section class="header-hide"></section>
+        <section class="section-header">
+            <div class="in_wrap">
+                <div class="page-header">
+                    <div class="page-index">
+                        <?php include("page-index.php"); ?>
+                        <p class="index">ABOUT</p>
+                    </div>
+                    <h2>네오포레</h2>
+                    <?php include("sub_in_nav.php"); ?>
+                </div>
+            </div>
+        </section>
+        <section class="section01">
+            <img src="img/1321321.JPG" alt="" style="width: 100%;" class="visual_section" />
+            <div class="in_wrap description">
+                <dl class="sceneElement" data-aos="fade-up">
+                    <dt class="obj ">컨셉</dt>
+                    <dd class="obj obj1 ">
+                        네오포레의 영문 N을 나무로 형상화 한 디자인으로 다양한 크기의 나뭇잎을 감각적으로 배치하여 숲으로 돌아가는 종이 네오포레의 가치를 담아 자연친화적인 의미를 나타내었습니다.
+                    </dd>
+                </dl>
+                <dl class="sceneElement" data-aos="fade-up">
+                    <dt class="obj ">
+                        심볼마크
+                        <a href="/resources/static/common/catalog/brand/neoforet_bi.pdf" class="btn sz_m c_bd" download=""><span>BI 다운로드</span><i class="arr"><span></span></i></a>
+                    </dt>
+                    <dd class="obj obj1 ">
+                        심볼마크는 대내외적으로 네오포레의 이미지를 대표하는 가장 핵심적인 요소이므로 일관된 이미지를 위해 활용시에는 반드시 원본 데이터를 활용해야 합니다.
+                    </dd>
+                    <dd class="tile obj obj2 ">
+                        <img src="img/logos.JPG" alt="" />
+                    </dd>
+                </dl>
+                <dl class="sceneElement" data-aos="fade-up">
+                    <dt class="obj ">시그니처</dt>
+                    <dd class="obj obj1 ">
+                        시그니처는 심볼마크와 로고타입이 일정한 규칙에 의해 가로, 세로로 조합 된 것을 말하며 적용매체의 레이아웃이나 상황에 따라 적절한 것을 선택하여 사용합니다. <br>
+                        시그니처의 사용 시 각각의 요소들의 비례나 간격, 크기를 임의로 변형할 수 없으며 색상 역시 지정 된 색상 규정을 준수하여야 합니다.
+                    </dd>
+                    <img src="img/cap123.JPG" alt="" />
+                </dl>
+                <dl class="sceneElement" data-aos="fade-up">
+                    <dt class="obj ">전용 색상</dt>
+                    <dd class="obj obj1 ">
+                        네오포레의 아이덴티티를 나타내는 2가지 메인 색상과 네오포레가 추구하는 가치를 나타내는 2가지 서브 색상으로 구분되어 있습니다.
+                    </dd>
+                    <img src="img/cap1234.JPG" alt="" />
+                </dl>
+            </div>
+        </section>
+        <?php include("../footer.php"); ?>
+    </div>
+</body>
+
+</html>

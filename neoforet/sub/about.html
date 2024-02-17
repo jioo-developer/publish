@@ -1,0 +1,119 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php include("sub_common.php"); ?>
+    <link rel="stylesheet" type="text/css" href="css/about.css">
+    <?php include("script_common.php"); ?>
+    <style>
+        * {
+            transition: transform 2s cubic-bezier(0.4, 0, 0.2, 1), opacity 2s cubic-bezier(0.4, 0, 0.2, 1);
+            transition-delay: 0.1s;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="wrap about_wrap" id="wrap">
+        <?php include("../header.php"); ?>
+        <section class="header-hide"></section>
+        <section class="section-header">
+            <div class="in_wrap">
+                <div class="page-header">
+                    <div class="page-index">
+                        <?php include("page-index.php"); ?>
+                        <p class="index">ABOUT</p>
+                    </div>
+                    <h2>네오포레</h2>
+                    <?php include("sub_in_nav.php"); ?>
+                </div>
+            </div>
+        </section>
+        <section class="section01">
+            <div class="in_wrap">
+                <article class="safety content">
+                    <div class="brand">
+                        <img src="img/ico_tree.png" alt="brand-img" data-aos="fade-up" />
+                        <p class="brand_txt" data-aos="fade-up" style="transition-delay: 0.2s;">
+                            숲으로 돌아가는 종이, 네오포레
+                        </p>
+                        <strong data-aos="fade-up" style="transition-delay: 0.3s;">Return to forest, Neoforêt</strong>
+                    </div>
+                    <div class="in_con">
+                        <div class="safe_left">
+                            <div class="con_txt">
+                                <b class="con_title" data-aos="fade-up">안전성</b>
+                                <p class="con_description" data-aos="fade-up">
+                                    <span>있는 그대로의 자연을 보존하는 착한 네오포레</span>
+                                    친환경 공정을 통해 탄생된 네오포레는 인체 무해성을 공식적으로 인정받은 안전한 제품입니다.
+                                </p>
+                            </div>
+                            <figure class="safe_img" data-aos="fade-up">
+                                <img src="img/safe_img.jpg2.jpg" alt="이미지2" />
+                            </figure>
+                        </div>
+                        <div class="safe_right">
+                            <figure class="safe_img" data-aos="fade-up">
+                                <img src="img/safe_img.jpg" alt="" />
+                            </figure>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="section02">
+            <div class="in_wrap">
+                <article class="environ content">
+                    <div class="con_left">
+                        <figure class="environ_img" data-aos="fade-up">
+                            <img src="img/Environ-img.png" alt="" />
+                        </figure>
+                    </div>
+                    <div class="con_right">
+                        <div class="con_txt">
+                            <b class="con_title" data-aos="fade-up">친환경성</b>
+                            <p class="con_description" data-aos="fade-up">
+                                <span>자연 친화적인 제품 라이프 사이클을 가진 네오포레</span>
+                                순환 경작 조림지에서 나온 목재를 사용하여 화석 에너지를 사용하지 않는 친환경 종이를 생산합니다.
+                            </p>
+                        </div>
+                        <figure class="environ_img" data-aos="fade-up">
+                            <img src="img/Environ-img2.png" alt="이미지2" />
+                        </figure>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="section03">
+            <div class="in_wrap">
+                <article class="sec03_top" data-aos="fade-up">
+                    <div class="sec03_txt">
+                        <b>생분해란?</b>
+                        <p><span>유기물질이 생물에 의하여 분해되는 것으로</span>무림의 네오포레는<br>자연에서 태어나 자연으로 돌아가는 생분해 제품입니다.</p>
+                    </div>
+                </article>
+                <article class="sec03_bottom" data-aos="fade-up">
+                    <figure class="sec03_b_img">
+                        <img src="img/brand_pic6.jpg" alt="이미지2" />
+                    </figure>
+                    <figcaption class="sec03_txt">
+                        <b>생분해 필요성</b>
+                        <p>
+                            일회용 종이컵 등은 재활용이 어려워 소각 처리 되는데,<br>이때 많은 양의 이산화탄소가 배출됩니다.<br>
+                            <span>네오포레 종이컵은 45일 안에 생분해 되어 플라스틱보다<br>자연 친화적 제품입니다.</span>
+                        </p>
+                    </figcaption>
+                </article>
+            </div>
+        </section>
+        <?php include("../footer.php"); ?>
+    </div>
+</body>
+
+</html>

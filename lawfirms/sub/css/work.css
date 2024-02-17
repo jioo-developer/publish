@@ -1,0 +1,156 @@
+.section_header {
+    background-image: url(../img/header/2.jpg) !important;
+}
+
+#s2_title_wrap {
+    width: 100%;
+    display: block;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#s2_text {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 400;
+    color: #222222;
+}
+
+#s2_main_title {
+    font-size: 33px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.w_line,
+.b_line {
+    margin: 0 auto;
+    width: 1px;
+    height: 20px;
+    background-color: #000000;
+    overflow: hidden;
+}
+
+.b_line {
+    background-color: #ffffff;
+}
+
+.s3_txt {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #222222;
+    text-align: center;
+    margin: 30px 0 100px 0;
+}
+
+.s3_title {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    font-size: 34px;
+    font-weight: 500;
+    color: #e3aa0c;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#section_4 {
+    background-image: url(../img/wrok/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#in_s4 {
+    width: 100%;
+    padding: 75px 0;
+}
+
+#s4_text,
+#s6_text,
+.s9_txt {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+#s4_text li,
+#s6_text li,
+.s9_txt li {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    font-size: 17px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#s4_text li:last-child {
+    margin-bottom: 0;
+}
+
+#s6_text li:last-child {
+    margin-bottom: 0;
+}
+
+.s9_txt li:last-child {
+    margin-bottom: 0;
+}
+
+.s4_txt {
+    float: left;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 25px;
+}
+
+mark {
+    background-color: #ffe394;
+    padding: 0 5px;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+
+@media all and (max-width:900px) {
+    #s2_main_title {
+        font-size: 30px;
+    }
+
+    #s2_text {
+        font-size: 20px;
+    }
+
+    #s2_title_wrap {
+        padding-bottom: 0;
+    }
+}
+
+@media all and (max-width:414px) {
+    .s1_s_title br {
+        display: none;
+    }
+
+    #s2_text {
+        padding-bottom:  30px;
+        margin: 0 auto;
+        float: none;
+        width: 80%;
+    }
+}
+
+.s3_txt {
+    font-size: 18px;
+}
+}

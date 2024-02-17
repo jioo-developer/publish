@@ -1,0 +1,162 @@
+.in_wrap {
+    width: 1400px;
+}
+
+.banner {
+    background-image: url(../img/banner.jpg);
+    background-size: 100% 550px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+}
+
+.in_s4 {
+    justify-content: center;
+}
+
+.s4_wrap,
+.s5_wrap {
+    margin: 0 auto;
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+.s4_box {
+    display: flex;
+    width: 45%;
+    min-height: 360px;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    margin: 50px 0;
+}
+
+.s4_img,
+.s4_img img {
+    width: 100%;
+}
+
+.s4_img img {
+    min-height: 230px;
+}
+
+.s4_txt_box {
+    width: 100%;
+    text-align: center;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.s4_title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+}
+
+.s4_txt {
+    font-size: 18px;
+    color: #666;
+}
+
+.s5_title {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 33px;
+    font-weight: 500;
+    color: #222;
+    margin: 30px 0;
+}
+
+.s5_box {
+    display: flex;
+    width: 45%;
+    min-height: 360px;
+    flex-direction: column;
+    margin: 50px 0;
+}
+
+.s5_img {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.s5_txt_box {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.s5_txt_box br {
+    display: none;
+}
+
+.s5_br br {
+    display: block;
+}
+
+.s5_br {
+    line-height: 2 !important;
+}
+
+.s5_in_title {
+    font-size: 25px;
+    font-weight: 500;
+    color: #333;
+}
+
+.s5_sub_txt {
+    font-size: 16px;
+    font-weight: 300;
+    color: #565656;
+    line-height: 1.7;
+}
+
+@media all and (max-width:1600px) {
+    .in_wrap {
+        width: 85%;
+    }
+
+    .s4_wrap,
+    .s5_wrap {
+        width: 95%;
+    }
+
+    .s4_txt {
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width:1000px) {
+    .s4_box {
+        width: 48%;
+    }
+}
+
+@media all and (max-width:800px) {
+    .banner {
+        display: none;
+    }
+
+    .s4_wrap,
+    .s5_wrap {
+        flex-direction: column;
+    }
+
+    .s4_box,
+    .s5_box {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+@media all and (max-width:414px) {
+    .s4_title {
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,21 @@
+.section_header{
+    background-image:url(../img/header/1.jpg) !important;
+}
+
+.in_wrap{
+    width: 1400px;
+}
+
+figure,figcaption{
+    width: 100%;
+}
+
+figure img, figcaption img{
+    width: 100%;
+}
+
+@media all and (max-width:1600px){
+    .in_wrap{
+        width: 85%;
+    }
+}

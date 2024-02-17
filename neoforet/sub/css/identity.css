@@ -1,0 +1,293 @@
+.section01 {
+    display: flex;
+    flex-direction: column;
+}
+
+.description {
+    margin-top: 100px;
+}
+
+.description dt {
+    position: relative;
+    border-bottom: 2px solid #222222;
+    padding-bottom: 12px;
+    font-size: 32px;
+    color: #222222;
+    font-weight: 600;
+}
+
+.description dd {
+    margin: 40px 0 30px 0;
+    font-size: 18px;
+    color: #666666;
+}
+
+.identity .con1 .btn {
+    position: absolute;
+    top: 4px;
+    right: 0;
+    font-weight: 400;
+}
+
+.btn.c_bd {
+    border-color: #ddd;
+    color: #666;
+}
+
+.btn.sz_m {
+    height: 40px;
+    padding: 0 24px;
+    border-radius: 20px;
+    line-height: 1;
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+}
+
+.description dl ~ dl {
+    margin-top: 110px;
+}
+
+.sceneElement img {
+    margin-bottom: 70px;
+}
+
+.btn {
+    display: inline-block;
+    border: 1px solid transparent;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    transition: .2s;
+    cursor: pointer;
+}
+
+identity .con1 .btn i.arr:before,
+.identity .con1 .btn i.arr:after {
+    width: 7px;
+}
+
+.btn.c_bd:hover i.arr:before,
+.btn.on.c_bd i.arr:before,
+.btn.c_bd:hover i.arr:after,
+.btn.on.c_bd i.arr:after {
+    background: #1dcb5d;
+}
+
+.btn.sz_m i.arr:before {
+    bottom: 50%;
+    margin-bottom: 2px;
+    transform: rotate(45deg);
+}
+
+.btn.sz_m i.arr:before,
+.btn.sz_m i.arr:after {
+    position: absolute;
+    right: 0;
+    content: '';
+    display: block;
+    width: 8px;
+    height: 2px;
+    background: #1dcb5d;
+    transition: .2s;
+}
+
+.btn.sz_m span {
+    line-height: 36px;
+}
+
+.btn span {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.identity .con1 .btn i.arr {
+    transform: rotate(90deg);
+    width: 12px;
+    margin-top: -6px;
+}
+
+.btn.sz_m i.arr {
+    position: relative;
+    display: inline-block;
+    width: 15px;
+    height: 2px;
+    margin-left: 8px;
+    vertical-align: middle;
+    background: #1dcb5d;
+    transition: .2s;
+    transform: rotate(90deg);
+}
+
+.btn {
+    display: inline-block;
+    border: 1px solid transparent;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.btn span {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.btn i.ico {
+    display: inline-block;
+    margin: 0 8px 0 0;
+    vertical-align: middle;
+}
+
+.btn i.ico + span {
+    margin: 0 0 0 8px;
+}
+
+.btn span + i.ico {
+    margin: 0 0 0 8px;
+}
+
+.btn.sz_l {
+    height: 60px;
+    padding: 0 48px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btn.sz_l span {
+    line-height: 56px;
+}
+
+.btn.sz_l i.arr {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 3px;
+    margin-left: 12px;
+    vertical-align: middle;
+    background: #1dcb5d;
+    transition: .2s;
+}
+
+.btn.sz_l i.arr:before,
+.btn.sz_l i.arr:after {
+    position: absolute;
+    right: 0;
+    content: '';
+    display: block;
+    width: 10px;
+    height: 3px;
+    background: #1dcb5d;
+    transition: .2s;
+}
+
+.btn.sz_l i.arr:before {
+    bottom: 50%;
+    margin-bottom: 2.5px;
+    transform: rotate(45deg);
+}
+
+.btn.sz_l i.arr:after {
+    top: 50%;
+    margin-top: 2.5px;
+    transform: rotate(135deg);
+}
+
+.btn.sz_m {
+    height: 40px;
+    padding: 0 24px;
+    border-radius: 20px;
+    line-height: 1;
+    font-size: 16px;
+}
+
+.btn.sz_m span {
+    line-height: 36px;
+}
+
+.btn.sz_m i.arr {
+    position: relative;
+    display: inline-block;
+    width: 15px;
+    height: 2px;
+    margin-left: 8px;
+    vertical-align: middle;
+    background: #1dcb5d;
+    transition: .2s;
+}
+
+.btn.sz_m i.arr:before,
+.btn.sz_m i.arr:after {
+    position: absolute;
+    right: 0;
+    content: '';
+    display: block;
+    width: 8px;
+    height: 2px;
+    background: #1dcb5d;
+    transition: .2s;
+}
+
+.btn.sz_m i.arr:before {
+    bottom: 50%;
+    margin-bottom: 2px;
+    transform: rotate(45deg);
+}
+
+.btn.sz_m i.arr:after {
+    top: 50%;
+    margin-top: 2px;
+    transform: rotate(135deg);
+}
+
+.btn.sz_s {
+    height: 32px;
+    padding: 0 20px;
+    border-radius: 16px;
+    font-size: 14px;
+}
+
+.btn.sz_s span {
+    line-height: 30px;
+}
+
+.btn.sz_s i.arr {
+    position: relative;
+    display: inline-block;
+    width: 11px;
+    height: 2px;
+    margin-left: 8px;
+    vertical-align: middle;
+    background: #1dcb5d;
+    transition: .2s;
+}
+
+.btn.sz_s i.arr:before,
+.btn.sz_s i.arr:after {
+    position: absolute;
+    right: 0;
+    content: '';
+    display: block;
+    width: 6px;
+    height: 2px;
+    background: #1dcb5d;
+    transition: .2s;
+}
+
+.btn.sz_s i.arr:before {
+    bottom: 50%;
+    margin-bottom: 1px;
+    transform: rotate(45deg);
+}
+
+.btn.sz_s i.arr:after {
+    top: 50%;
+    margin-top: 1px;
+    transform: rotate(135deg);
+}

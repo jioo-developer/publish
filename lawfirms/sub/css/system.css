@@ -1,0 +1,46 @@
+.section_header{
+    background-image:url(../img/header/1.jpg) !important;
+}
+
+section{
+    height: 100vh;
+    position: relative;
+}
+
+.img_container,.img_container img{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container_txt{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    text-align: center;
+    z-index: 100;
+    color: #fff;
+    margin-top: -18px;
+    font-size: 24px;
+}
+
+.in_txt{
+    font-size: 115px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    line-height: 95px;
+}
+
+#con2{
+    margin-top: -98.5px;
+}
+
+.cons{
+    margin-top: -134.5px;
+}
+
+#con7{
+    margin-top: -116.5px;
+}

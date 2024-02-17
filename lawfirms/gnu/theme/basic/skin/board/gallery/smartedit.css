@@ -1,0 +1,14 @@
+#smart_editor2 {
+    margin-right: 1px !important;
+    min-width: 100px !important
+}
+
+.board {
+    width: 70% !important;
+}
+
+@media all and (max-width:1440px) {
+    .board {
+        width: 90% !important;
+    }
+}

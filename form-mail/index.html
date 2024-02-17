@@ -1,0 +1,75 @@
+<!doctype html>
+
+<html class="no-js">
+
+<head>
+    <title>폼메일</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700&display=swap&subset=korean" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700&display=swap&subset=korean" rel="stylesheet">
+
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./css/jquery-ui.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/jquery-ui.js"></script>
+    <script src="js/calendar.js"></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <section id="section_5" class="section">
+            <div class="cover"></div>
+            <div class="in_wrap" id="in_s5">
+                <div id="s5_title">
+                    <p class="s_title">
+                        온라인 상담신청
+                    </p>
+                    <img src="img/title7.svg">
+                </div>
+                <div id="s5_box">
+                    <figure id="s5_out_box">
+                        <img src="img/last.svg">
+                    </figure>
+                    <ul id="s5_nav">
+                        <li><img src="img/award1.png"></li>
+                        <li><img src="img/award2.png"></li>
+                        <li><img src="img/award3.png"></li>
+                    </ul>
+                    <div id="s5_in_box">
+                        <img src="img/last2.svg">
+                    </div>
+                </div>
+
+                <!-- 폼메일 영역 시작 -->
+                <form name="myform" method="post" action="form_send.php">
+                    <input type="hidden" name="mode" value="send" />
+                    <div id="s5_right_box">
+                        <input type="text" placeholder="성함" class="text1" id="name" name="name" />
+                        <input type="text" placeholder="연락처" class="text1" id="hp" name="hp" />
+                        <input type="text" placeholder="날짜" class="text1" id="resdt" name="resdt" />
+                        <input type="text" placeholder="이메일" class="text1" id="email" name="email" />
+                        <textarea placeholder="상담내용" class="text1 s5_text_area" id="memo" name="memo"></textarea>
+                        <div id="s5_btn_wrap">
+                            <div id="s5_btn" onclick="form_Check()">
+                                <img src="img/cheak.svg">
+                                <p id="s5_texts">상담신청</p>
+                            </div>
+                            <div id="s5_close" onclick="myform.reset()">
+                                취소
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <!-- 폼메일 영역 끝 -->
+
+            </div>
+        </section>
+    </div>
+</body>
+<script src="js/form_load.js"></script>
+
+</html>

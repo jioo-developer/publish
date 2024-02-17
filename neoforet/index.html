@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Neoforet Clone Coading</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/swiper.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/jquery-3.4.0.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="https://kit.fontawesome.com/c5617adfbb.js" crossorigin="anonymous"></script>
+    <script src="js/common.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="wrap main_wrap" id="wrap">
+        <div class="cover">
+           <div class="in_cover">
+            <img src="img/pop.jpg" alt="팝업" />
+            <div class="button_box">
+                <button id="todaycloseyn">오늘 그만보기</button>
+                <button id="closeBtn">닫기</button>
+            </div>
+           </div>
+        </div>
+        <?php include("header.php"); ?>
+        <main>
+            <img src="img/new_award.png" alt="엠블렘" / class="emblem">
+            <section class="main_section">
+                <div class="in_wrap">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide" style="background:url(img/bg1.jpg)"></div>
+                            <div class="swiper-slide" style="background:url(img/bg2.jpg)"></div>
+                            <div class="swiper-slide" style="background:url(img/bg3.jpg)"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="main_txt_wrap">
+                        <b>Return to forest</b>
+                        <p class="sub_txt">
+                            숲으로 돌아가는 종이, 네오포레
+                        </p>
+                        <button type="button" class="main_btn">
+                            <a href="#">브랜드 스토리 자세히 보기</a>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="product">
+                <div class="description">
+                    <h2>네오포레의<br>다양한 제품을 만나보세요.</h2>
+                    <p class="description_txt">
+                        무림은 최고의 기술로 생활의 가치를 더하고 있습니다.
+                    </p>
+                </div>
+                <div class="swiper product-Swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="img/slide_img_1.png" alt="">
+                                <div class="slide_caption">
+                                    네오포레 CUP
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="img/slide_img_2.png" alt="">
+                                <div class="slide_caption">
+                                    네오포레 STRAW
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="img/slide_img_3.png" alt="">
+                                <div class="slide_caption">
+                                    네오포레 완충제
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="img/slide_img_4.png" alt="">
+                                <div class="slide_caption">
+                                    네오포레 FLEX
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide small">
+                            <a href="#">
+                                <img src="img/slide_img_5.png" alt="">
+                                <div class="slide_caption">
+                                    펄프 몰드
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="img/slide_img_6.png" alt="">
+                                <div class="slide_caption">
+                                    바이오플라스틱
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+            <section class="notice">
+                <div class="in_wrap">
+                    <div class="notice_header">
+                        <h3>네오포레의<br>다양한 소식을 만나보세요.</h3>
+                        <p class="notice_txt">
+                            무림은 최고의 기술로 생활에 가치를 더하고 있습니다.
+                        </p>
+                    </div>
+                    <div class="notice_con">
+                        <article>
+                            <a href="#">
+                                <figure class="notice_img">
+                                    <img src="img/2304209511204018.jpg" alt="소식1" />
+                                </figure>
+                                <figcaption class="notice_caption">
+                                    <h5>네오포레 식목일 기념 이벤트 당첨자 발표</h5>
+                                    <span class="date">2023.04.20</span>
+                                    <p class="event_end">이벤트 기간 : 2/14~2/27, 당첨자 발표 : 3/4 오후 1시</p>
+                                </figcaption>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="#">
+                                <figure class="notice_img">
+                                    <img src="img/2304176892771252.jpg" alt="소식2" />
+                                </figure>
+                                <figcaption class="notice_caption">
+                                    <h5>롯데월드 아쿠아리움, 무림P&amp;P와 업무협약 체결</h5>
+                                    <span class="date">2023.04.17</span>
+                                   
+                                </figcaption>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="#">
+                                <figure class="notice_img">
+                                    <img src="img/2303147812286958.jpg" alt="소식3" />
+                                </figure>
+                                <figcaption class="notice_caption">
+                                    <h5>무림의 천연 펄프몰드,호텔 어메니티까지 담는다!</h5>
+                                    <span class="date">2023.03.14</span>
+                                </figcaption>
+                            </a>
+                        </article>
+                    </div>
+                    <button type="button" class="notice_more">
+                        <a href="#">네오포레 소식 더보기</a>
+                    </button>
+                    <div class="cs_wrap">
+                        <article class="cs">
+                            <div class="cs_in">
+                                <div>
+                                    <b>온라인 문의</b>
+                                    <p>궁금하신 사항을 문의 하실 수 있습니다.</p>
+                                </div>
+                                <div class="contact">
+                                    <a href="#">
+                                        문의하기
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="charge">
+                            <div class="cs_in">
+                                <div>
+                                    <b>담당자 정보</b>
+                                    <p>업무당담자를 확인 하실 수 있습니다.</p>
+                                </div>
+                                <div class="contact">
+                                    <a href="#">
+                                        정보확인
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <?php include("footer.php"); ?>
+    </div>
+</body>
+
+</html>

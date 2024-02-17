@@ -1,0 +1,94 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>방문상담</title>
+    <meta charset="UTF-8">
+    <?php include("sub_common.php"); ?>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <style>
+        @media all and (max-width:1000px){
+            
+            section{
+                height: auto;
+            }
+            
+            .in_s6{
+                padding: 150px 0 70px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrap">
+        <?php include("sub_sidebar.php"); ?>
+        <?php include("../head.php"); ?>
+           <section class="section06 section">
+                <div class="cover"></div>
+                <div class="in_s6">
+                    <div class="s6_title">
+                        <div class="sec_line line6"></div>
+                        <p class="s_title s6_titles">
+                            온라인 상담신청
+                        </p>
+                        <p class="s2_txt" style="text-align: center;">
+                            보다 행복한 그날을 꿈꾸고 계신다면 그날의 문을 두드려 주시기 바랍니다</p>
+                    </div>
+                    <div class="s6_out_box">
+                        <div class="s6_box">
+                            <b>5개 부문 <strong>브랜드 대상</strong>
+                                수상<br> 2년 연속 <strong>
+                                    소비자만족 대상</strong></b>
+                            <ul class="s6_nav">
+                                <li><img src="../img/award1.png"></li>
+                                <li><img src="../img/award2.png"></li>
+                                <li><img src="../img/award3.png"></li>
+                                <li><img src="../img/award4.png"></li>
+                                <li><img src="../img/award5.png"></li>
+                            </ul>
+                        </div>
+                        <ul class="s6_texts_box">
+                            <li>· 2018.7. 한국전문기자협회 선정 '대구지역 법률서비스' 부문 소비자만족 1위 </li>
+                            <li>· 2018.12. '헤럴드 고객감동 브랜드 대상' 법률서비스 부문 대상 수상</li>
+                            <li>· 2019.1. (사)한국전문기자협회 법률서비스분야
+                                이혼소송 부문 소비자 만족 1위</li>
+                            <li>· 2019.8. 중앙일보 ‘2019 소비자만족 브랜드’ 시상식에서 법률서비스(이혼) 부문 1위를 수상</li>
+                            <li>· 2019.11. (전용탁변호사) 위클리피플 사 주관 올해의 신지식인 전문위원으로 위촉</li>
+                        </ul>
+                    </div>
+                    <form name="myform" method="post" action="form_send.php">
+                        <input type="hidden" name="mode" value="send">
+
+                        <div class="s6_right_box">
+                            <div class="s6_txt_box">
+                                <input type="text" placeholder="성함" class="text1" id="name" name="name" />
+                            </div>
+                            <div class="s6_txt_box">
+                                <input type="text" placeholder="연락처" class="text1" id="hp" name="hp" />
+                            </div>
+                            <div class="s6_txt_box">
+                                <input type="text" placeholder="날짜" class="text1" id="resdt" name="resdt" />
+                            </div>
+                            <div class="s6_txt_box">
+                                <textarea placeholder="상담내용" class="text1" id="memo" name="memo" /></textarea>
+                            </div>
+                            <div class="s6_btn_wrap">
+                                <div class="s6_btn" onclick="form_Check()">
+                                    <img src="../img/cheak.svg">
+                                    <p class="s6_texts">상담신청</p>
+                                </div>
+                                <div class="s6_close" onclick="myform.reset()">
+                                    취소
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        <?php include("../footer.php"); ?>
+    </div>
+</body>
+
+</html>

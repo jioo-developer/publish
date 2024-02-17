@@ -1,0 +1,92 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>방문상담</title>
+    <meta charset="UTF-8">
+    <?php include("sub_common.php"); ?>
+    <link rel="stylesheet" type="text/css" href="css/map.css">
+    <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <?php include("sub_sidebar.php"); ?>
+        <?php include("../head.php"); ?>
+        <?php include("header_background.php"); ?>
+        <div class="s1_title_wrap">
+            <div class="s1_title">
+                오시는길
+            </div>
+            <?php include("sub_title2.php"); ?>
+        <div class="visit_start_title">
+            <b>오시는길</b>
+            <p class="visit_start_text">
+                [대구광역시 달서구 장산남로 21, 205호&206호 (용산동, 법조빌딩)<br>
+                구주소 : 대구 달서구 용산동 230-21 법조빌딩 205호&206호]
+            </p>
+        </div>
+    <section id="section_3">
+     <div class="in_wrap">
+      <div id="map">
+            <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=	49491c5a49c7b1439a80db278d672d30">
+          </script>
+ <script>
+var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+    mapOption = { 
+        center: new kakao.maps.LatLng(35.852069, 128.528150), // 지도의 중심좌표
+        level: 4 // 지도의 확대 레벨
+    };
+
+var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
+
+// 마커가 표시될 위치입니다 
+var markerPosition  = new kakao.maps.LatLng(35.852069, 128.528150); 
+
+// 마커를 생성합니다
+var marker = new kakao.maps.Marker({
+    position: markerPosition
+});
+
+// 마커가 지도 위에 표시되도록 설정합니다
+marker.setMap(map);
+
+// 아래 코드는 지도 위의 마커를 제거하는 코드입니다
+// marker.setMap(null);    
+</script>
+      </div>
+      <div id="map_wrap">
+         <div class="map_in_wrap">
+         <img src="img/travel/bus.svg">
+          <div class="traffic">
+          <strong>· </strong>
+          <b>버스</b>
+          <p class="in_text">롯데캐슬그랜드 정류장 1분거리 </p>
+          <p class="in_text">대구학생문화센터 1분거리 </p>
+          <p class="in_text">대구지방법원서부지원 정류장 2분거리 </p>
+          </div>
+          </div>
+          <div class="map_in_wrap">
+        <img src="img/travel/train.svg">
+          <div class="traffic">
+          <strong>· </strong>
+          <b>지하철</b>
+          <p class="in_text">2호선 용산역 6번출구에서 도보 500m </p></div>
+          </div>
+          <div class="map_in_wrap">
+          <img src="img/travel/car.svg">
+          <div class="traffic">
+          <strong>· </strong>
+          <b>승용차</b>
+          <p class="in_text">1시간 무료주차 이용안내<br>
+          방문상담 및 계약 시<br> 1시간 무료주차권을 제공합니다.</p></div>
+          </div>
+      </div>
+     </div>
+    </section>
+        <?php include("../footer.php"); ?>
+    </div>
+</body>
+
+</html>

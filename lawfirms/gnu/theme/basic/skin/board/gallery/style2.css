@@ -1,0 +1,61 @@
+#bo_gall .bo_tit .new_icon,
+#bo_gall .bo_cnt,
+#bo_gall .gall_info {
+    display: none;
+}
+
+.gall_img {
+    position: relative;
+}
+
+.cover2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8) !important;
+    z-index: 100;
+    color: #fff;
+    padding:40px 0 0 30px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 20px;
+    opacity: 1 !important;
+}
+
+.gall_text_href {
+    display: flex;
+    text-indent: 5px;
+}
+
+.check {
+    background: url(../../../img/ins_cheak.svg);
+    width: 37px;
+    height: 30px;
+    background-size: 95% 100%;
+}
+
+
+#bo_v_info {
+    overflow: visible !important;
+}
+
+#bo_gall .gall_text_href a {
+    float: left;
+    width: 90%;
+    overflow: hidden;
+    letter-spacing: 1.7px;
+    color: #2e2e2e;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 1.7px;
+}
+
+.gall_text_href:hover .check{
+    filter: brightness(0.5);
+}
+
+@media all and (max-width:600px){
+    #bo_gall .gall_img img{
+        width: 100%;
+    }
+}

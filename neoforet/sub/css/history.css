@@ -1,0 +1,130 @@
+.section01 > .out_wrap > .in_wrap {
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.out_wrap {
+    width: 1720px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.year_wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.year_wrap > img {
+    align-self: flex-start;
+}
+
+.year {
+    font-size: 135px;
+    font-weight: 700;
+    line-height: 1;
+    margin-top: 15px;
+    color: #000;
+}
+
+.fixed {
+    position: fixed;
+    top: 220px;
+}
+
+.history-navigation {
+    position: absolute;
+    right: 30px;
+    top: 120px;
+}
+
+.history-navigation li {
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 83px;
+    letter-spacing: -1px;
+}
+
+.fixed2{
+    position: fixed;
+    top: 50%;
+    right: 120px;
+    transform: translateY(-50%);
+}
+
+.history-navigation li::after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background: #333;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-left: 12px;
+    display: block;
+    z-index: 1000;
+    position: relative;
+    background: #666;
+    left: 4px;
+}
+
+.history-navigation li.active::after {
+    background: #fff;
+    border: 6px solid #1dcb5d;
+    width: 24px;
+    height: 24px;
+    left: 0;
+}
+
+.history-navigation li:last-child::after {
+    margin-bottom: 0;
+    margin-top: 3px;
+}
+
+.active {
+    font-size: 22px !important;
+}
+
+.fontUp {
+    font-size: 22px;
+}
+
+.con_img_wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.con_img {
+    margin: 35px 0 100px 0;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.con_img:first-child {
+    margin-top: 0;
+}
+
+.con_img_wrap > .con_img > figure {
+    width: 792px;
+    height: 440px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+hr {
+    position: absolute;
+    top: 9px;
+    right: 11px;
+    height: 225px;
+    background-color: #ddd;
+    opacity: 0.5;
+}
+
+pre {
+    font-size: 18px;
+    color: #222;
+    font-weight: 700;
+}
